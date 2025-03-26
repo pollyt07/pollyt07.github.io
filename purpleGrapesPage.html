@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <title>Grapes</title>
+  <link href="purpleGrapesStyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="page"> <!--opening div-->
+
+
+  <div id="headertext">
+    <div id="header">
+      <h1>Grape Expectations</h1>
+    </div>
+  </div>
+
+
+  <div class="float-container">
+    <div id="right-column">
+      <div id="img">
+        <img src="redGrapePainting.jpg" width=400vw height=400vh alt="grapes">
+      </div>
+    </div>
+
+
+    <div id="left-column">
+      <div id="columnheader">
+        <h2>Lorem Ipsum</h2>
+      </div>
+      <ul>
+        <div class="list">
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam at interdum lorem. Cras porttitor leo eget orci venenatis placerat.</li>
+          <li>Nunc placerat quam eget massa fermentum varius. Proin in porta lacus. Aliquam scelerisque placerat vehicula. Phasellus aliquam metus ut arcu facilisis, ac fermentum mauris dapibus. </li>
+          <li>Praesent nec nulla pharetra, luctus leo a, convallis lacus. Aliquam sed risus vel purus varius vulputate vitae id dolor. Ut eget urna porttitor, vulputate quam quis, bibendum orci.</li>
+          <li>Sed feugiat nisl sit amet nulla commodo dapibus. iam sed quam eget mauris molestie malesuada. Maecenas aliquet nec urna ac auctor.</li>
+        </div>
+      </ul>
+      <p>
+        <a href="http://localhost:63342/htmlnew/grapeWebPage/grapePage.html?_ijt=3bsjiqltqtio8rkluscno8gdoo">Click Here To Look At Green Grapes</a>
+      </p>
+    </div>
+
+
+    <div class="clearfix"></div>
+
+
+  </div>
+  <div class="float-container">
+    <div id="loright-column">
+      <div id="columnheader">
+        <h2>Lorem Ipsum</h2>
+      </div>
+
+      <ul>
+        <div class="list">
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam at interdum lorem. Cras porttitor leo eget orci venenatis placerat.</li>
+          <li>Nunc placerat quam eget massa fermentum varius. Proin in porta lacus. Aliquam scelerisque placerat vehicula.  </li>
+          <li>Praesent nec nulla pharetra, luctus leo a, convallis lacus. Aliquam sed risus vel purus varius vulputate vitae id dolor. </li>
+          <li>Sed feugiat nisl sit amet nulla commodo dapibus. iam sed quam eget mauris molestie malesuada. Maecenas aliquet nec urna ac auctor.</li>
+        </div>
+      </ul>
+      <p>
+        <div class="list">
+          <a href="otherFruits.html">Click Here To Look at Other Fruits</a>
+      </div>
+      </p>
+
+    </div>
+
+    <div id="loleft-column">
+      <div id="img">
+        <img src="purpleGrapes.jpg" width=400vw height=400vh alt="grape painting">
+      </div>
+    </div>
+  </div>
+
+
+
+      <div class="centered-text">
+        <div id="img">
+          <div id="emailinput">
+            <form name="question">
+              <p id="box">Would you like to join our newsletter? Type in your email here!</p>
+              <button type="button" onclick="validate()">Enter</button>
+                <input type="text" id="email" name="email" placeholder="example@example.com">
+            </form>
+
+            <script>
+              function validate() {
+                var x = document.forms["question"]["email"].value;
+                if (x.indexOf("@") == -1) {
+                  alert("Please enter a valid email address");
+                  return false;
+                  }
+                alert("Thank You!");
+                return true;
+              }
+            </script>
+          </div>
+        </div>
+      </div>
+
+
+
+
+  <div style="clear:both;"></div>
+</div> <!--closing div-->
+</body>
+</html>

@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+body
+{
+    margin: 0px;
+    padding: 10px;
+    background-color:white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    font-weight:300;
+    font-style:normal;
+    text-align:center;
+    color:white;
+}
+
+#page{
+    max-width:100%;
+    min-height:135vh;
+    margin:0px auto;
+    padding:20px;
+    background-color:#eff1ed;
+}
+
+#header{
+    padding:5px;
+    background-color:#511F73;
+    text-align:center;
+    font-size:30px;
+}
+
+#headertext{
+    margin:0px;
+    padding:5px;
+    font-size:20px;
+    font-family: "Shrikhand", serif;
+    font-weight: bold;
+    color:#eff1ed;
+}
+
+.float-container{
+    width:100%;
+    overflow:hidden;
+}
+
+#img{
+    border: double 10px #511F73;
+    width:100%;
+    max-width:41.8vh;
+    height:auto;
+}
+
+
+#right-column{
+    float:right;
+    width:27%;
+    padding:10px;
+    text-align:left;
+    box-sizing:border-box;
+}
+
+#loright-column{
+    float:right;
+    width:67%;
+    padding:10px;
+    text-align:right;
+    box-sizing:border-box;
+}
+
+#columnheader{
+    font-size:2.0rem;
+    color: #60308C;
+    font-weight:bold;
+}
+
+#left-column{
+    float:left;
+    width:70%;
+    padding:10px;
+    text-align:left;
+    font-size:15px;
+    box-sizing: border-box;
+}
+
+#loleft-column{
+    float:left;
+    width:25%;
+    padding:10px;
+    text-align:left;
+    box-sizing: border-box;
+    font-size:15px;
+}
+
+.clearfix::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+
+.list{
+    color:#6F46A6;
+    font-size:18px;
+    padding:10px;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+    padding-top: 1500px;
+}
+
+#emailinput{
+    padding:5px;
+    background-color:#60308C;
+    text-align:center;
+    font-size:15px;
+}
+
+
+
